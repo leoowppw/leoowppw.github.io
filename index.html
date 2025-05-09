@@ -9,7 +9,9 @@
         h1 { color: darkred; }
         h2 { margin-top: 30px; }
         p { max-width: 700px; }
-        table { border-collapse: collapse; margin-top: 20px; }
+        /* Table styles */
+        div.table-wrapper { overflow-x: auto; margin-top: 20px; }
+        table { border-collapse: collapse; width: 100%; min-width: 600px; }
         th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: right; }
         th { background-color: #f2f2f2; }
         caption { caption-side: top; text-align: left; font-weight: bold; margin-bottom: 5px; }
@@ -34,6 +36,7 @@
 <p>In 1943, the Chinese Exclusion Act was repealed during WWII as China was a U.S. ally. However, immigration was still limited to 105 people per year until 1965.</p>
 
 <h2>Chinese Population in the U.S. (1860–1940)</h2>
+<div class="table-wrapper">
 <table>
     <caption>Source: Kung 1962: 33, 41</caption>
     <tr>
@@ -49,6 +52,7 @@
     <tr><td>1930</td><td>74,954</td><td>59,802</td><td>15,152</td><td>20.2</td><td>87.7</td></tr>
     <tr><td>1940</td><td>77,504</td><td>57,389</td><td>20,115</td><td>25.9</td><td>91.6</td></tr>
 </table>
+</div>
 
 </body>
 </html>
